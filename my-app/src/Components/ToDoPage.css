@@ -1,0 +1,101 @@
+
+.todo-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-left {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.todo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+.user-info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+
+.view-more {
+  color: #007bff;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 75px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.task-progress-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team-icon {
+  color: #007bff;
+  font-size: 18px;
+}
+
+.task-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.team-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.team-member {
+  font-size: 16px;
+  color: #555;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.progress-icon {
+  font-size: 12px;
+  margin-right: 5px;
+}
