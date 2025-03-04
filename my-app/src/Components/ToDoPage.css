@@ -24,29 +24,51 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background-color: #FCDAAA;
 }
 
 .user-info {
   flex: 1;
   margin-left: 10px;
+  
+}
+
+.user-info .greet{
+  color: #97989b;
+}
+
+.user-name {
+  font-family: system-ui;
+  color: #555;
+  
 }
 
 .view-more {
   color: #007bff;
   font-size: 12px;
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .header-icons {
+  
   display: flex;
-  gap: 10px;
+  gap: 25px;
+  font-size: 15px;
+  
+  color: #555;
+  justify-content: space-between;
 }
 
-.header-icon {
-  font-size: 18px;
+.header-icon{
+  width: 20px;
+  height: 20px;
+  background-color: #ebedec;
+  border-radius: 50px;
   color: #555;
 }
+
+  
 
 .task-progress-card {
   background: white;
@@ -65,11 +87,35 @@
 .task-title {
   font-size: 18px;
   font-weight: bold;
+  color: #555;
 }
 
+.task-date{
+  margin-bottom: 0px;
+  color: #a3a0a0;
+}
+ .line{
+  color: #a3a0a0;
+ }
+
+ .description{
+  color: #97989b;
+  font-weight: normal;
+ }
+
+ .task-description{
+  font-weight: normal;
+  color: black;
+ }
+
 .team-icon {
-  color: #007bff;
-  font-size: 18px;
+  width: 28px;
+  height: 25px;
+  border-radius: 50%;
+  color: #f27426;
+  background-color: rgb(244, 191, 144);
+  font-size: 16px;
+  
 }
 
 .task-footer {
@@ -80,15 +126,25 @@
   font-size: 14px;
 }
 
+.task-teams{
+  color: #97989b;
+}
+
 .team-icons {
   display: flex;
   gap: 5px;
+  margin-top: 10px;
 }
 
 .team-member {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+}
+
+.task-progress{
+  margin-right: 10px;
+  color: #97989b;
 }
 
 .progress-bar {
@@ -100,5 +156,5 @@
 
 .progress-icon {
   font-size: 12px;
-  margin-right: 5px;
+  margin-left: 170px;
 }

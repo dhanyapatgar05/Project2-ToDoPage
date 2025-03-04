@@ -1,7 +1,7 @@
 import React from "react";
-import { FaUsers} from "react-icons/fa";
+
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import { RiCalendar2Line } from "react-icons/ri";
+import { RiCalendar2Line, RiTeamLine  } from "react-icons/ri";
 import { BsBell } from "react-icons/bs";
 import "./TodoPage.css";
 
@@ -12,7 +12,8 @@ const TodoPage = () => {
         <div className="todo-header">
           <img src="https://pics.craiyon.com/2024-09-19/pTqdzlorS-uGf367PYXzSA.webp" alt="User Avatar" className="user-avatar" />
           <div className="user-info">
-            <h2 className="user-name">Joko Husein</h2>
+            <p className="greet">Hello,</p>           
+            <div className="user-name">Joko Husein</div>
             <p className="task-progress">On Progress (12) <span className="view-more">View More</span></p>
           </div>
           <div className="header-icons">
@@ -23,22 +24,26 @@ const TodoPage = () => {
 
         <div className="task-progress-card">
           <div className="task-header">
-            <h3 className="task-title">Design UI ToDo APP</h3>
-            <FaUsers className="team-icon" />
+            <div className="task-title">Design UI ToDo APP</div>
+            <RiTeamLine  className="team-icon" />
           </div>
           <p className="task-date">Friday, 08 July 2022</p>
+          <div className="line">__________________________________________</div>
+          <div className="description">Description:</div>
           <p className="task-description">Design a simple home pages with clean layout and color based on the guidelines...</p>
           <div className="task-footer">
             <span className="task-teams">Teams:</span>
-            <span className="team-icons">
+            <span className="task-progress">Progress:</span>
+            
+          </div>
+          <span className="team-icons">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifunhA6ltTu6tVc5-fOv2g7SwTf-dUW89c5Q5eRygq53GmBb1vm5_Kurx-Mg1NwbzREU&usqp=CAU" alt="Team Member" className="team-member" />
               <img src="https://cdn4.iconfinder.com/data/icons/professional-avatar-5/48/teacher_avatar_woman_women_profile_character_professions_2-512.png" alt="Team Member" className="team-member" />
               <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-3d-employee-video-chat-png-image_13340394.png" alt="Team Member" className="team-member" />
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBqBKkB60hEtGe0eS-K0FM1NSLesNcQwJNg&s" alt="Team Member" className="team-member" />
+              <span className="progress-bar"><AiOutlineLoading3Quarters  className="progress-icon" /> 78%</span>
             </span>
-            <span className="task-progress">Progress:</span>
-            <span className="progress-bar"><AiOutlineLoading3Quarters  className="progress-icon" /> 78%</span>
-          </div>
+            
         </div>
       </div>
     </div>
