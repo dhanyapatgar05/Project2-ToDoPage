@@ -1,5 +1,8 @@
 import React from "react";
-import { FaUserCircle, FaUsers, FaBell, FaCalendarAlt, FaCircle } from "react-icons/fa";
+import { FaUsers} from "react-icons/fa";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { RiCalendar2Line } from "react-icons/ri";
+import { BsBell } from "react-icons/bs";
 import "./TodoPage.css";
 
 const TodoPage = () => {
@@ -7,16 +10,14 @@ const TodoPage = () => {
     <div className="todo-container">
       <div className="todo-left">
         <div className="todo-header">
-        <img src="https://pics.craiyon.com/2024-09-19/pTqdzlorS-uGf367PYXzSA.webp" alt="User Avatar" className="user-avatar" />
+          <img src="https://pics.craiyon.com/2024-09-19/pTqdzlorS-uGf367PYXzSA.webp" alt="User Avatar" className="user-avatar" />
           <div className="user-info">
-            <p className="word">Hello,</p>
-            <h2 className="user-name2">Joko Husein</h2>
-            
+            <h2 className="user-name">Joko Husein</h2>
             <p className="task-progress">On Progress (12) <span className="view-more">View More</span></p>
           </div>
           <div className="header-icons">
-            <button className="calendar-button"><FaCalendarAlt /></button>
-            <button className="notification-button"><FaBell /></button>
+            <RiCalendar2Line className="header-icon" />
+            <BsBell className="header-icon" />
           </div>
         </div>
 
@@ -30,13 +31,13 @@ const TodoPage = () => {
           <div className="task-footer">
             <span className="task-teams">Teams:</span>
             <span className="team-icons">
-              <FaUserCircle className="team-member" />
-              <FaUserCircle className="team-member" />
-              <FaUserCircle className="team-member" />
-              <FaUserCircle className="team-member" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifunhA6ltTu6tVc5-fOv2g7SwTf-dUW89c5Q5eRygq53GmBb1vm5_Kurx-Mg1NwbzREU&usqp=CAU" alt="Team Member" className="team-member" />
+              <img src="https://cdn4.iconfinder.com/data/icons/professional-avatar-5/48/teacher_avatar_woman_women_profile_character_professions_2-512.png" alt="Team Member" className="team-member" />
+              <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-3d-employee-video-chat-png-image_13340394.png" alt="Team Member" className="team-member" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWBqBKkB60hEtGe0eS-K0FM1NSLesNcQwJNg&s" alt="Team Member" className="team-member" />
             </span>
             <span className="task-progress">Progress:</span>
-            <span className="progress-bar"><FaCircle className="progress-icon" /> 78%</span>
+            <span className="progress-bar"><AiOutlineLoading3Quarters  className="progress-icon" /> 78%</span>
           </div>
         </div>
       </div>
