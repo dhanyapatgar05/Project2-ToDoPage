@@ -64,6 +64,7 @@ const TodoPage = () => {
               </div>
             </div>
           </div>
+
           <div className="task-content">
             <div className="task-header">
               <div className="task-name">Task Explorer NFT</div>
@@ -104,48 +105,43 @@ const TodoPage = () => {
               </div>
               <p className="task-date">Friday, 08 July 2022</p>
             </div>
-          </div>
-        
-          <div className="task-form">
-            <h2 className="form-title">New Task ToDo</h2>
-            <label className="form-label">Title Task</label>
-            <input type="text" placeholder="Add Task Name.." className="task-input" />
-            
-            <label className="form-label">Category</label>
-            <div className="category-section">
-              <button className="category-button active"><FaUser /> Personal</button>
-              <button className="category-button"><FaTasks /> Teams</button>
-            </div>
-            
-            <label className="form-label">Description</label>
-            <textarea placeholder="Add Descriptions..." className="task-textarea"></textarea>
-            
-            <div className="date-time-section">
-              <div className="input-group">
-                <label className="form-label">Date</label>
-                <div className="input-icon">
-                  <FaRegCalendarAlt className="input-icon-img" />
-                  <input type="text" placeholder="dd/mm/yy" className="date-input" />
+
+            <div className="task-form">
+              <h2 className="form-title">New Task ToDo</h2>
+              <label className="form-label">Title Task</label>
+              <input type="text" placeholder="Add Task Name.." className="task-input" />
+              <label className="form-label">Category</label>
+              <div className="category-section">
+                <button className="category-button active"><FaUser /> Personal</button>
+                <button className="category-button"><FaTasks /> Teams</button>
+              </div>
+              <label className="form-label">Description</label>
+              <textarea placeholder="Add Descriptions..." className="task-textarea"></textarea>
+              <div className="date-time-section">
+                <div className="input-group">
+                  <label className="form-label">Date</label>
+                  <div className="input-icon">
+                    <FaRegCalendarAlt className="input-icon-img" />
+                    <input type="text" placeholder="dd/mm/yy" className="date-input" />
+                  </div>
+                </div>
+                <div className="input-group">
+                  <label className="form-label">Time</label>
+                  <div className="input-icon">
+                    <FaClock className="input-icon-img" />
+                    <input type="text" placeholder="hh:mm" className="time-input" />
+                  </div>
                 </div>
               </div>
-              <div className="input-group">
-                <label className="form-label">Time</label>
-                <div className="input-icon">
-                  <FaClock className="input-icon-img" />
-                  <input type="text" placeholder="hh:mm" className="time-input" />
-                </div>
+              <div className="form-buttons">
+                <button className="cancel-button">Cancel</button>
+                <button className="submit-task-button">Create</button>
               </div>
-            </div>
-            
-            <div className="form-buttons">
-              <button className="cancel-button">Cancel</button>
-              <button className="submit-task-button">Create</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   );
 };
 
