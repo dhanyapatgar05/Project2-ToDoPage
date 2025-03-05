@@ -1,5 +1,7 @@
 import React from "react";
-import { FaCheckCircle, FaUser,FaTasks,FaRegCalendarAlt, FaClock  } from "react-icons/fa";
+import { FaCheckCircle, FaRegUser,FaRegCalendarAlt, FaClock  } from "react-icons/fa";
+import { HiOutlineUserGroup } from "react-icons/hi";
+
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { RiCalendar2Line, RiTeamLine  } from "react-icons/ri";
 import { BsBell } from "react-icons/bs";
@@ -105,15 +107,15 @@ const TodoPage = () => {
               </div>
               <p className="task-date">Friday, 08 July 2022</p>
             </div>
-
+      
             <div className="task-form">
               <h2 className="form-title">New Task ToDo</h2>
               <label className="form-label">Title Task</label>
               <input type="text" placeholder="Add Task Name.." className="task-input" />
               <label className="form-label">Category</label>
               <div className="category-section">
-                <button className="category-button active"><FaUser /> Personal</button>
-                <button className="category-button"><FaTasks /> Teams</button>
+                <button className="category-button active"><FaRegUser  /> Personal</button>
+                <button className="category-button"><HiOutlineUserGroup  /> Teams</button>
               </div>
               <label className="form-label">Description</label>
               <textarea placeholder="Add Descriptions..." className="task-textarea"></textarea>
