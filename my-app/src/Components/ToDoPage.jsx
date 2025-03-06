@@ -17,7 +17,7 @@ const TodoPage = () => {
             <div className="user-info">
               <p className="greet">Hello,</p>           
               <div className="user-name">Joko Husein</div>
-              <p className="task-progress">On Progress (12) <span className="view-more">View More</span></p>
+              <p className="task-progres">On Progress (12) <span className="view-more">View More</span></p>
             </div>
             <div className="header-icons">
               <RiCalendar2Line className="header-icon" />
@@ -87,13 +87,13 @@ const TodoPage = () => {
 
         {/* Right Section */}
         <div className="todo-right">
-          <div className="header-card">
-            <div className="todo-header">
+          <div className="header-card1">
+            <div className="todo-header1">
               <img src="https://pics.craiyon.com/2024-09-19/pTqdzlorS-uGf367PYXzSA.webp" alt="User Avatar" className="user-avatar" />
               <div className="user-info">
                 <p className="greet">Hello,</p>           
                 <div className="user-name">Joko Husein</div>
-                <p className="task-progress">On Progress (12) <span className="view-more">View More</span></p>
+                <p className="task-progres">On Progress (12) <span className="view-more">View More</span></p>
               </div>
               <div className="header-icons">
                 <RiCalendar2Line className="header-icon" />
@@ -107,7 +107,7 @@ const TodoPage = () => {
               </div>
               <p className="task-date">Friday, 08 July 2022</p>
             </div>
-      
+          
             <div className="task-form">
               <h2 className="form-title">New Task ToDo</h2>
               <label className="form-label">Title Task</label>

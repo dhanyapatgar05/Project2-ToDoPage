@@ -52,11 +52,16 @@
   
 }
 
+
+.task-progres{
+   justify-content: space-between;
+}
+
 .view-more {
   color: #007bff;
   font-size: 12px;
   cursor: pointer;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .header-icons {
@@ -261,18 +266,25 @@
   align-items: center;
 }
 
-.header-card{
+.header-card1{
+  background: rgb(234, 232, 232);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  margin-top: 50px;
-  backdrop-filter: blur(100px);
- }
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
 
- .task-progress-card1{
+.todo-header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+  
+}
+
+.task-progress-card1{
   padding: 15px;
   border-radius: 8px;
-  
- }
+}
 
 .task-form {
   display: flex;
@@ -282,7 +294,7 @@
   padding: 15px;
   gap: 15px;
   border-radius: 15px;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
 }
 
 .form-title {
