@@ -52,7 +52,6 @@
   
 }
 
-
 .task-progres{
    justify-content: space-between;
 }
@@ -80,8 +79,7 @@
   color: #555;
 }
 
-
-  .task-progress-card {
+.task-progress-card {
   background: white;
   padding: 15px;
   border-radius: 8px;
@@ -126,8 +124,7 @@
   color: #f27426;
   background-color: rgb(244, 191, 144);
   font-size: 16px;
-  
-}
+  }
 
 .task-footer {
   display: flex;
@@ -176,7 +173,7 @@
   padding: 15px;
   border: #555;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px rgba(240, 183, 123, 0.712);
+  box-shadow: 0px 0px 10px rgba(205, 204, 204, 0.712);
 
 }
 
@@ -203,8 +200,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  /* border-bottom: 1px solid #ddd; */
-}
+ }
 
 .task-content {
   flex: 1;
@@ -278,8 +274,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 45px;
-  
-}
+  }
 
 .task-progress-card1{
   padding: 15px;
